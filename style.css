@@ -1,0 +1,45 @@
+.card {
+ font-family: Ubuntu;
+ font-size: 50px;
+ text-align: center;
+ color: black;
+ background: rgb(131,58,180);
+background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(29,111,253,1) 50%, rgba(156,69,252,1) 100%); 
+}
+
+img {
+  max-width: 400px !important;
+  max-height: 400px !important;
+}
+
+div {
+	display: grid;
+	grid-template: repeat(2, 1fr) / 1fr;
+	justify-content: center;
+	align-items: center;
+	gap: 20px;
+ }
+
+.answer {
+	display: flex;
+	background-color: white;
+	justify-content: center;
+	align-items: center;
+}
+
+.question {
+	display: flex;
+	background-color: white;
+	justify-content: center;
+	align-items: center;
+}
+
+input {
+	height: 50px;
+	font-size: 50px;
+	text-align: center;
+}
+
+.textType {
+	display: flex;
+}
